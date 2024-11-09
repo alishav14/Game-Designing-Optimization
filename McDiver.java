@@ -7,13 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-
-/** This is the place for your implementation of the {@code SewerDiver}.
- */
 public class McDiver implements SewerDiver {
     private ArrayList<Long> visitedSeek = new ArrayList<Long>();
 
-    /** See {@code SewerDriver} for specification. */
     @Override
     public void seek(SeekState state) {
         assert state != null;
