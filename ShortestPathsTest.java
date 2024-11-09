@@ -9,9 +9,7 @@ import java.util.Set;
 import org.junit.jupiter.api.Test;
 
 public class ShortestPathsTest {
-    /** The graph example from Prof. Myers's notes. There are 7 vertices labeled a-g, as
-     *  described by vertices1. 
-     *  Edges are specified by edges1 as triples of the form {src, dest, weight}
+    /** Edges are specified by edges1 as triples of the form {src, dest, weight}
      *  where src and dest are the indices of the source and destination
      *  vertices in vertices1. For example, there is an edge from a to d with
      *  weight 15.
